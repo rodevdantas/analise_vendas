@@ -24,15 +24,10 @@ Impacto do tempo de entrega no lucro: análise da relação entre tempo de entre
 
 Vendas por dia da semana: visualização das vendas ao longo dos dias da semana por meio de um mapa de calor.
 
-Recursos:
+---
 
 O código está comentado para facilitar a compreensão.
 
 Todos os gráficos gerados estão disponíveis para download.
 
-Tecnologias Utilizadas:
-
-Linguagem: Python
-
-Bibliotecas: Pandas, Seaborn, Matplotlib, NumPy, Scipy, Scikit-Learn
-
+Tecnologias utilizadas: Linguagem Python, bibliotecas Pandas, Seaborn, Matplotlib, NumPy, SciPy, Scikit-Learn
