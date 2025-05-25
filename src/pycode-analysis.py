@@ -1,4 +1,3 @@
-# %% Importação das principais bibliotecas 
 import pandas as pd
 import seaborn as sbn
 import matplotlib.pyplot as plt
@@ -8,11 +7,12 @@ from sklearn.linear_model import LinearRegression
 from scipy.stats import pearsonr
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import mean_absolute_error, r2_score
+import os
 
 # %% Transferindo CSV pro explorador de variáveis
-tb_clientes = pd.read_csv("tb_clientes.csv")
-tb_pedidos = pd.read_csv("tb_pedidos.csv")
-tb_produtos = pd.read_csv("tb_produtos.csv")
+tb_clientes = pd.read_csv(os.path.join('..', 'data', 'tb_clientes.csv'))
+tb_pedidos = pd.read_csv(os.path.join('..', 'data', 'tb_pedidos.csv'))
+tb_produtos = pd.read_csv(os.path.join('..', 'data', 'tb_produtos.csv'))
 
 # %% Conferindo 3 primeiras colunas de cada banco de dados
 tb_clientes.head(3)
@@ -102,8 +102,8 @@ plt.show()
 
 
 # %% Clientes mais rentáveis
-clientes_rentaveis = dataset.groupby(['cliente_id', 'nome']).agg({'valor_vendas': 'sum', 'Lucro': 'sum'}).reset_index()
 
+clientes_rentaveis = dataset.groupby(['cliente_id', 'nome']).agg({'valor_vendas': 'sum', 'Lucro': 'sum'}).reset_index()
 clientes_rentaveis = clientes_rentaveis.sort_values(by='Lucro', ascending=False).head(10)
 
 plt.figure(figsize=(14,8))
