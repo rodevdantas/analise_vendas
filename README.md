@@ -31,6 +31,23 @@ This project follows a standard and organized directory structure to enhance rea
 
 - INSIGHTS.md: This file provides a detailed breakdown of the analytical insights derived from the data, complemented by strategic recommendations for business application.
 
+### Dependencies
+
+To run this project, you need to have Python installed. The required libraries can be installed using `pip` from the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+
+The requirements.txt file contains the following libraries:
+
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+scipy
+
+
 This structure ensures a clear separation of concerns, making it easier to navigate and understand the project's components.
 
 ### Technologies

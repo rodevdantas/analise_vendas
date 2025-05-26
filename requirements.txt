@@ -1,7 +1,7 @@
 pandas 
 numpy
 seaborn 
-matplotlib.plotly
+matplotlib
 scikit-learn
 scipy
 os
