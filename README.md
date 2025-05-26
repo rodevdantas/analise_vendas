@@ -37,15 +37,16 @@ To run this project, you need to have Python installed. The required libraries c
 
 ```bash
 pip install -r requirements.txt
+```
+The `requirements.txt` file contains the following libraries:
 
-The requirements.txt file contains the following libraries:
-
-pandas
-numpy
-seaborn
-matplotlib
-scikit-learn
-scipy
+* pandas
+* numpy
+* seaborn
+* matplotlib
+* scikit-learn
+* scipy
+* os
 
 
 This structure ensures a clear separation of concerns, making it easier to navigate and understand the project's components.
