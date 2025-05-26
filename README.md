@@ -29,6 +29,8 @@ This project follows a standard and organized directory structure to enhance rea
 
 - figures/: This directory is intended to store all generated plots, charts, and other visual outputs from the analysis.
 
+- INSIGHTS.md: This file provides a detailed breakdown of the analytical insights derived from the data, complemented by strategic recommendations for business application.
+
 This structure ensures a clear separation of concerns, making it easier to navigate and understand the project's components.
 
 ### Technologies
